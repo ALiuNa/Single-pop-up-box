@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>js alert confirm样式弹出框</title>
+<link type="text/css" rel="stylesheet" href="css/showBo.css" />
+<script type="text/javascript" src="js/showBo.js"></script>
+</head>
+<body >
+<div id="wrap">
+	<div class="box-163css" style="height:2000px;">
+		<input type="button" value="Showbo.Msg.alert" onclick="Showbo.Msg.alert('您好，请先注册或登录!')">
+		<input type="button" value="Showbo.Msg.confirm" onclick="Showbo.Msg.confirm('您确定删除这条记录吗？')">
+	</div>
+    <div class="box-163css">
+		<input type="button" value="Showbo.Msg.alert" onclick="Showbo.Msg.alert('您好，请先注册或登录!')">
+		<input type="button" value="Showbo.Msg.confirm" onclick="Showbo.Msg.confirm('您确定删除这条记录吗？')">
+	</div>
+</div>
+<script>
+	$(window).scroll(function() {   
+		screenWidth = $(window).width();   
+		screenHeight = $(widow).height();   
+		scrolltop = $(document).scrollTop();   
+		objLeft = (screenWidth - obj.width())/2 ;   
+		objTop = (screenHeight - obj.height())/2 + scrolltop;   
+		obj.css({left: 50% + 'px', top: 50% + 'px','display': 'block'});   
+		});   
+</script>
+</body>
+</html>
